@@ -43,7 +43,7 @@ module.exports = {
             title: appHtmlTitle
         }),
 
-        new FaviconsWebpackPlugin('images/favicon.png')
+        // new FaviconsWebpackPlugin('images/favicon.png')
 
     ],
     module: {
@@ -106,6 +106,7 @@ module.exports = {
                         {
                             loader: 'postcss-loader',
                             options: {
+                                sourceMap: IS_DEV,
                                 ident: 'postcss',
                                 plugins: (loader) => [
                                     require('autoprefixer')(),

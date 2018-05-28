@@ -11,12 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://cvgellhorn@github.com/cvgellhorn/webpack-boilerplate.git"
+    "url": "https://github.com/Rath-san/buildenv_webpack"
   },
   "dependencies": {
     "bootstrap": "^4.1.0",
     "lodash": "4.17.5",
-    "overlayscrollbars": "^1.4.2"
+    "overlayscrollbars": "^1.4.2",
+    "three": "^0.92.0"
   },
   "devDependencies": {
     "autoprefixer": "^8.3.0",
